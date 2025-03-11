@@ -6,7 +6,7 @@ public class GEx7 {
         Scanner entrada = new Scanner(System.in);
 
         //* ex1 
-/*         System.out.print("Digite o nome do aluno: ");
+        System.out.print("Digite o nome do aluno: ");
         String nome = entrada.nextLine();
         System.out.print("Digite o curso do aluno (ADM, DIR, CEX): ");
         String curso = entrada.nextLine();
@@ -22,10 +22,10 @@ public class GEx7 {
         }  
         else{
             System.out.println("Curso não encontrado.");
-        } */
+        }
 
         //* ex2
-/*         System.out.print("Digite seu nome: ");
+        System.out.print("Digite seu nome: ");
         String nome = entrada.nextLine();
         System.out.println("Digite seu estado civil (S, C, V, D): ");
         String estcv = entrada.nextLine();
@@ -44,10 +44,10 @@ public class GEx7 {
         }
         else{
             System.out.println("Estado civil não encontrado.");
-        }*/
+        }
 
         //* ex3 
-/*         System.out.print("Digite seu nome: ");
+        System.out.print("Digite seu nome: ");
         String nome = entrada.nextLine();
         System.out.print(" T- Técnico\n E- Enegenheiro de Software\n A- Analista de Sistemas\n P- Programador\n W- Web-Designer\n G- Gerente Projetos\nDigite seu cargo: ");
         String cargo = entrada.nextLine().toLowerCase();  
@@ -76,10 +76,10 @@ public class GEx7 {
             default: 
                 System.out.println("Cargo não encontrado.");
                 break;
-        } */
+        }
 
         //* ex4
-/*         System.out.print("A- adição\nS- subtração\nM- multiplicação\nD- divisão\nEscolha a operação: ");
+        System.out.print("A- adição\nS- subtração\nM- multiplicação\nD- divisão\nEscolha a operação: ");
         String op = entrada.nextLine().toLowerCase();
         System.out.print("Primeiro número: ");
         double n1 = entrada.nextDouble();
@@ -102,10 +102,10 @@ public class GEx7 {
             default:
                 System.out.println("Opção indisponível.");
                 break;
-        } */
+        }
 
         //* ex1
-/*         int i=1;
+        int i=1;
         while (i<3){
             System.out.print("Digite o nome do "+i+"º aluno: ");
             String nome = entrada.nextLine();
@@ -131,10 +131,10 @@ public class GEx7 {
                 sit = "aprovado";
             }
             System.out.println("O aluno "+nome+" ficou com média "+media+" e está "+sit+" na disciplina "+disc);
-        } */
+        }
 
         //* ex2 
-/*         int inf=0, mec=0, ele=0, des=0;
+        int inf=0, mec=0, ele=0, des=0;
         for (int i=1; i<3; i++){
             System.out.print("Digite o nome do "+i+"º aluno: ");
             String nome = entrada.nextLine();
@@ -160,10 +160,10 @@ public class GEx7 {
             }
         }
         System.out.println("");
-        System.out.println("Total de alunos em cada curso: \nInformática: "+inf+"\nMecânica: "+mec+"\nEletrônica: "+ele+"\nDesign: "+des); */
+        System.out.println("Total de alunos em cada curso: \nInformática: "+inf+"\nMecânica: "+mec+"\nEletrônica: "+ele+"\nDesign: "+des);
 
         //* ex3
-/*         int a=0, p=0, c=0, v=0;
+        int a=0, p=0, c=0, v=0;
         double total=0;
         for (int i=1; i<3; i++){
             System.out.print("Digite o nome do "+i+"º funcionário: ");
@@ -196,10 +196,10 @@ public class GEx7 {
             }
         }
         System.out.println("");
-        System.out.println("Total de funcionários em cada setor: \nAlmoxarifado: "+a+"\nProdução: "+p+"\nContabilidade: "+c+"\nVendas: "+v+"\nTotal dos salários: R$"+total); */
+        System.out.println("Total de funcionários em cada setor: \nAlmoxarifado: "+a+"\nProdução: "+p+"\nContabilidade: "+c+"\nVendas: "+v+"\nTotal dos salários: R$"+total);
 
         //* ex4
-/*         int ef=0, em=0, et=0, g=0;
+        int ef=0, em=0, et=0, g=0;
         for (int i=1; i<3; i++){
             System.out.print("Digite o nome do "+i+"º aluno: ");
             String nome = entrada.nextLine();
@@ -225,7 +225,7 @@ public class GEx7 {
             }
         }
         System.out.println("");
-        System.out.println("Total de alunos em cada formação: \nEnsino Fundamental: "+ef+"\nEnsino Médio: "+em+"\nEnsino Técnico: "+et+"\nGraduação: "+g); */
+        System.out.println("Total de alunos em cada formação: \nEnsino Fundamental: "+ef+"\nEnsino Médio: "+em+"\nEnsino Técnico: "+et+"\nGraduação: "+g);
 
         //* ex5 
         int f=0, m=0, maior=0, menor=0;
