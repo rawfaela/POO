@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FEx6 {
+public class Aula1 {
     public static void main(String[] args) {
         @SuppressWarnings("resource") //pra n da "erro" na entrada (nao necessario, so me incomoda)
         Scanner entrada= new Scanner(System.in);
