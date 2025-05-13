@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 
 //! metodo com return nao tem void (so pode retornar 1 variavel)
 
-public class Metodos {
+public class Aula3Metodos {
     public static void main(String[] args) {
         /* Cadastro(); */
         /* Categoria(); */
