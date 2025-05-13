@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //para testar, comentar todos menos o desejado (variáveis repitidas)
-public class GEx7 {
+public class Aula2 {
     public static void main(String[] args) {
         @SuppressWarnings("resource") //pra n da "erro" na entrada (nao necessario, so me incomoda)
         Scanner entrada = new Scanner(System.in);
