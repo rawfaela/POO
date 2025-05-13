@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Array {
+public class Aula4Array {
     public static void main(String[] args) {
         /* Temp(); */
         /* Nums(); */
